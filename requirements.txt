@@ -1,0 +1,31 @@
+# Criminal Case: İstanbul Dosyaları - Gerekli Paketler
+# BGT 132 Yazılım Geliştirme Teknolojileri - Final Projesi
+
+# Python sürüm gereksinimi: >=3.8
+python>=3.8
+
+# Standart kütüphaneler (genellikle Python ile birlikte gelir)
+# tkinter - GUI için (Python ile birlikte gelir)
+# json - Veri yönetimi için (Python ile birlikte gelir)
+# os - Dosya işlemleri için (Python ile birlikte gelir)
+# random - Rastgelelik için (Python ile birlikte gelir)
+# time - Zaman işlemleri için (Python ile birlikte gelir)
+# datetime - Tarih ve zaman için (Python ile birlikte gelir)
+# logging - Loglama için (Python ile birlikte gelir)
+# traceback - Hata takibi için (Python ile birlikte gelir)
+# functools - Fonksiyon yardımcıları için (Python ile birlikte gelir)
+# hashlib - Hash hesaplama için (Python ile birlikte gelir)
+# typing - Tip ipuçları için (Python ile birlikte gelir)
+# abc - Soyut sınıflar için (Python ile birlikte gelir)
+
+# Test için (opsiyonel)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Geliştirme için (opsiyonel)
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
+
+# Not: Bu proje temel Python kütüphaneleriyle çalışacak şekilde tasarlanmıştır.
+# Harici bağımlılıklar minimumda tutulmuştur.
