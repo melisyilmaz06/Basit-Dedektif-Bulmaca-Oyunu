@@ -4,7 +4,7 @@
 
 **Criminal Case: İstanbul Dosyaları**, BGT 132 Yazılım Geliştirme Teknolojileri dersi için geliştirilen bir dedektif bulmaca oyunudur. Oyuncular, İstanbul'un farklı bölgelerinde gerçekleşen gizemli cinayetleri çözmek için deliller toplar, analiz eder ve suçluyu bulmaya çalışır.
 
-## 🎮 Oyun Hakkında
+##  Oyun Hakkında
 
 Oyun 3 ana bölümden oluşur:
 1. **Müzede Cinayet** - Değerli Osmanlı madalyalarının çalındığı dava
@@ -17,7 +17,7 @@ Her bölümde:
 - Şüpheli sorgulama
 - Suçlu teşhis etme
 
-## 🛠️ Teknik Özellikler
+##  Teknik Özellikler
 
 ### Kullanılan Teknolojiler
 - **Programlama Dili**: Python 3.8+
@@ -61,7 +61,7 @@ Basit Dedektif Bulmaca Oyunu/
 └── .gitignore                      # Git İgnore
 ```
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### Gereksinimler
 - Python 3.8 veya üzeri
@@ -88,7 +88,7 @@ Veya doğrudan çalıştırın:
 python "Basit Dedektif Bulmaca Oyunu/main.py"
 ```
 
-## 🎯 Oyun Nasıl Oynanır
+##  Oyun Nasıl Oynanır
 
 ### 1. Başlangıç
 - Oyunu başlattığınızda ana menü açılır
@@ -99,12 +99,12 @@ python "Basit Dedektif Bulmaca Oyunu/main.py"
 - Her bölümün farklı bir hikayesi ve şüphelileri vardır
 
 ### 3. Olay Yeri İncelemesi
-- "🔍 Olay Yerini İncele" butonuna tıklayın
+- " Olay Yerini İncele" butonuna tıklayın
 - Rastgele deliller bulunur
 - Deliller envanterinize eklenir
 
 ### 4. Delil Analizi
-- "⚗️ Laboratuvar" butonuna tıklayın
+- " Laboratuvar" butonuna tıklayın
 - Analiz etmek için bir delil seçin
 - Analiz sonuçları size ipuçları verir
 
@@ -114,11 +114,11 @@ python "Basit Dedektif Bulmaca Oyunu/main.py"
 - Topladığınız bilgilerle suçluyu belirleyin
 
 ### 6. Suçlama
-- "🚨 Suçla" butonuna tıklayın
+- " Suçla" butonuna tıklayın
 - Suçlu olduğuna inandığınız kişiyi seçin
 - Doğru tahmin için bonus puan kazanın!
 
-## 📊 Skor Sistemi
+##  Skor Sistemi
 
 - **Delil Bulma**: Her delil için 10 puan
 - **Analiz Başarısı**: Her analiz için 20 puan  
@@ -126,7 +126,7 @@ python "Basit Dedektif Bulmaca Oyunu/main.py"
 - **Yanlış Suçlama**: -50 puan
 - **Yıldız Sistemi**: 1-3 yıldız
 
-## 🧪 Testler
+##  Testler
 
 Testleri çalıştırmak için:
 ```bash
@@ -138,7 +138,7 @@ Veya tek test dosyası:
 python tests/test_oyun.py
 ```
 
-## 🐛 Hata Yönetimi
+##  Hata Yönetimi
 
 Oyun kapsamlı hata yönetimi içerir:
 - **Veri Yükleme Hataları**: JSON dosya sorunları
@@ -148,7 +148,7 @@ Oyun kapsamlı hata yönetimi içerir:
 
 Tüm hatalar `logs/game.log` dosyasına kaydedilir.
 
-## 📝 Kod Kalitesi
+##  Kod Kalitesi
 
 ### Uygulanan Standartlar
 - **Anlamlı Değişken İsimleri**: `oyun_durumu`, `bulunan_deliller`
@@ -162,7 +162,7 @@ Tüm hatalar `logs/game.log` dosyasına kaydedilir.
 - **Polymorphism**: `bilgi_ver()` metodu farklı sınıflarda farklı çalışır
 - **Abstraction**: Soyut `Karakter` sınıfı
 
-## 🔄 Git Kullanımı
+##  Git Kullanımı
 
 ### Anlamlı Commit Mesajları
 ```
@@ -178,7 +178,7 @@ test: birim testleri eklendi
 - `feature/ozellik-adi`: Yeni özellikler
 - `bugfix/hata-aciklamasi`: Hata düzeltmeleri
 
-## 🤝 Katkıda Bulunma
+##  Katkıda Bulunma
 
 1. Projeyi fork edin
 2. Yeni branch oluşturun (`git checkout -b feature/yeni-ozellik`)
@@ -192,17 +192,9 @@ Bu proje eğitim amaçlıdır ve BGT 132 dersi kapsamında geliştirilmiştir.
 
 ## 👥 Geliştirici
 
-- **Ad**: [Öğrenci Adı]
-- **Bölüm**: [Bölüm Adı]
+- **Ad**: Melis Yılmaz
+- **Bölüm**: Bilgisayar Programcılığı
 - **Ders**: BGT 132 Yazılım Geliştirme Teknolojileri
 - **Proje**: Final Projesi
 
-## 📞 İletişim
 
-Sorularınız ve önerileriniz için:
-- E-posta: [öğrenci-email@universite.edu.tr]
-- GitHub: [github.com/kullanici-adi]
-
----
-
-**Not**: Bu proje BGT 132 dersi final projesi olarak geliştirilmiştir ve tüm ders gereksinimlerini karşılamaktadır.
