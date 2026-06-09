@@ -1,0 +1,18 @@
+def guvenli_secim_al(mesaj, min_deger=1, max_deger=3):
+    """
+    Kullanıcıdan sadece belirlenen aralıkta ve doğru formatta 
+    sayısal girdi almayı garanti eden fonksiyon.
+    """
+    while True:
+        try:
+            secim = int(input(mesaj))
+            if min_deger <= secim <= max_deger:
+                return secim  # Giriş doğruysa döngüden çık ve değeri döndür
+            else:
+                print(f"Lütfen {min_deger} ile {max_deger} arasında bir sayı girin!")
+        except ValueError:
+            print("Hatalı giriş! Bir sayı girmelisiniz. (Örn: 1, 2, 3)")
+
+# OYUN İÇİNDE KULLANIMI:
+# Kullanıcı harf girse de, 5 girse de oyun çökmez, doğru girene kadar tekrar sorar.
+secim = guvenli_secim_al("Seçiminiz (1-3): ", 1, 3) 
